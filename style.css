@@ -1,0 +1,113 @@
+body {
+    background-color: #faf7fc;
+    background-image: url("pont.jpg");
+    background-size: cover;
+    color: white;;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #6f9fc4;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}button {
+    background-color: rgba(111, 159, 196, 0.85);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 8px;
+}
+a {
+    text-decoration: none;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 67%,
+    rgba(0, 0, 0, 0.5) 100%
+);
+    z-index: -1;
+
+}
+.text-box {
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 8px 15px;
+    border-radius: 12px;
+    max-width: 450px;
+    margin: 0 auto 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+h2 {
+    color: #6f9fc4;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-email {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+.contact-email-box {
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 8px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.price-box {
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 10px 25px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.flowers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flowers img {
+    width: 50px;
+}
+.page-flower {
+    width: 45px;
+    display: block;
+    margin: 10px auto;
+}
+.title-flower {
+    width: 30px;
+    vertical-align: middle;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    opacity: 0.7;
+}
